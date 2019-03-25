@@ -35,6 +35,16 @@ body {
   .bg-4 { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
+
+  }
+  a {
+    color: white;
+  }
+  .text a{
+    font-size: 50%;
+    text-decoration: none;
+    text-align: left;
+    
   }
   .container-fluid {
     padding-top: 70px;
