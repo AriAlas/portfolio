@@ -21,15 +21,27 @@ body {
     height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow: auto;
+    
+  }
+  .bg-2 p{
+    font-size: 20px;
+    
   }
 
 
   .bg-2-5 {
-    background-color: #dfe3de; /* PINK */
-    color: #ffffff;
+    background-color: gray; /* PINK */
+    color: #dfe3de;
+
   }
+
+  .bg-2-5 p {
+    font-size: 20px;
+  }
+
   .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #dfe3de; /* White */
     color: #555555;
   }
   .bg-4 { 

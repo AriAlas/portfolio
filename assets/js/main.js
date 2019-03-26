@@ -104,4 +104,24 @@ $(document).ready(function () {
         ResCarousel(ell, Parent, slide);
     }
 
+    /* ANIMATION FOR LINKS */
+
+    $(".whoLink").on("click", function(){
+        $("html,body").animate({
+            scrollTop: $("#who").offset().top}, "slow");
+    });
+    $(".whatLink").on("click", function(){
+        $("html,body").animate({
+            scrollTop: $("#what").offset().top}, "slow");
+    });
+    $(".portfolioLink").on("click", function(){
+        $("html,body").animate({
+            scrollTop: $("#portfolio").offset().top}, "slow");
+    });
+    $(".contactLink").on("click", function(){
+        $("html,body").animate({
+            scrollTop: $("#contact").offset().top}, "slow");
+    });
+
+
 });
