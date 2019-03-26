@@ -1,12 +1,12 @@
-/* *:not(path):not(g) {
-    color:                    hsla(210, 100%, 100%, 0.9) !important;
-    background:               hsla(210, 100%,  50%, 0.5) !important;
-    outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
-    box-shadow: none !important;
-} */
+  /* *:not(path):not(g) {
+      color:                    hsla(210, 100%, 100%, 0.9) !important;
+      background:               hsla(210, 100%,  50%, 0.5) !important;
+      outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+      box-shadow: none !important;
+  } */
 
 body {
-    font: 20px Montserrat, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
   }
@@ -15,6 +15,7 @@ body {
   .bg-1 { 
     background-color: #ffb6c1; /* PINK */
     color: #ffffff;
+    height: 100vh;
   }
   .bg-2 {  /*PARALLAX*/
     background: black url("../images/parallax.jpg") center / cover; 
@@ -47,7 +48,13 @@ body {
   .bg-4 { 
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
+    height: 100vh;
 
+  }
+ .bg-5 {
+  background: #000;
+  color: white;
+  font-size: 48px;
   }
   a {
     color: white;
@@ -149,3 +156,20 @@ body {
  .MultiCarousel .rightLst { right:0; }
  
      .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+/* Contact style */
+
+
+.contact a{
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.vcenter {
+
+  /* vertical-align: middle; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
